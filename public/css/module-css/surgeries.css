@@ -1,0 +1,260 @@
+
+/** surgeries-section **/
+
+.surgeries-section{
+  position: relative;
+}
+
+.testing-tab .p-tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.testing-tab .p-tab.active-tab {
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+  z-index: 5;
+}
+
+.testing-tab .p-tabs-content {
+  position: relative;
+  display: block;
+}
+
+.testing-tab .p-tab .content-box {
+  position: relative;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.testing-tab .p-tab.active-tab .content-box {
+  opacity: 1;
+}
+
+.testing-tab .testing-tab-btns li{
+  position: relative;
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 30px 15px;
+  text-align: center;
+  background: #F5FAFA;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.testing-tab .testing-tab-btns li.active-btn{
+  
+}
+
+.testing-tab .testing-tab-btns li h5{
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+  transition: all 500ms ease;
+}
+
+.testing-tab .testing-tab-btns li.active-btn h5{
+  color: #fff;
+}
+
+.testing-tab .content-box{
+  position: relative;
+  width: 100%;
+  padding: 157px 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 5px;
+}
+
+.testing-tab .content-box .inner-box{
+  position: relative;
+  display: block;
+  max-width: 460px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.testing-tab .content-box .inner-box h4{
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.testing-tab .content-box .inner-box a{
+  position: absolute;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  top: 50%;
+  margin-top: -24px;
+  right: -24px;
+}
+
+.testing-tab .content-box .inner-box a:hover{
+
+}
+
+.surgeries-section .owl-dots{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+  width: 255px;
+  border-top-left-radius: 5px;
+  min-height: 84px;
+  counter-reset: slides-num;
+}
+
+.surgeries-section .owl-dots:before{
+  position: absolute;
+  content: '';
+  background: #D9D9D9;
+  width: 100px;
+  height: 1px;
+  left: 76px;
+  top: 40px;
+}
+
+.surgeries-section .owl-dots::after {
+  position: absolute;
+  right: 56px;
+  top: 29px;
+  content: "" counter(slides-num);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--title-color);
+  font-weight: 700;
+  font-family: var(--title-font);
+}
+
+.surgeries-section .owl-dots button span{
+  display: none !important;
+}
+
+.surgeries-section .owl-dots button{
+  position: absolute;
+  counter-increment: slides-num;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--title-color);
+  font-weight: 700;
+  font-family: var(--title-font);
+  left: 56px;
+  top: 29px;
+}
+
+.surgeries-section .owl-dots button.active:before{
+  position: absolute;
+  content: counter(slides-num);
+}
+
+
+
+
+/** rtl-css **/
+.rtl .testing-tab .content-box .inner-box{
+  text-align: right;
+}
+
+.rtl .testing-tab .testing-tab-btns li{
+  float: right;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .surgeries-section{
+    padding: 65px 0px 70px 0px;
+  }
+
+  .testing-tab .testing-tab-btns li{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .testing-tab .testing-tab-btns li{
+    width: 100%;
+  }
+
+  .testing-tab .content-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .testing-tab .content-box .inner-box{
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

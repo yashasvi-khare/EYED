@@ -1,0 +1,148 @@
+
+/** service-details **/
+
+.service-details{
+  position: relative;
+}
+
+.service-details-content{
+  position: relative;
+}
+
+.service-details-content .image-box{
+  position: relative;
+  display: block;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.service-details-content .image-box img{
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.service-details-content .inner-box{
+  position: relative;
+  display: block;
+  border: 1px solid #D9D9D9;
+  border-radius: 0px 0px 5px 5px;
+  padding: 50px;
+  border-top: none;
+}
+
+.service-details-content h3{
+  display: block;
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.service-details-content p{
+  margin-bottom: 30px;
+}
+
+.service-details-content h5{
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-details-content .list-style-one li:before{
+
+}
+
+.service-details-content .two-column .image{
+  position: relative;
+  display: block;
+  border-radius: 5px;
+}
+
+.service-details-content .two-column .image img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .appointment-section .inner-box .form-inner{
+    margin-bottom: 30px;
+  }
+
+  .service-details-content{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .service-details{
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .service-details-content .inner-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

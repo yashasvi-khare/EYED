@@ -1,0 +1,200 @@
+
+/** gallery-section **/
+
+.gallery-section{
+  position: relative;
+}
+
+.gallery-block-one .inner-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.gallery-block-one .inner-box .image-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.gallery-block-one .inner-box .image-box img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box:hover .image-box img{
+  transform: scale(1.05);
+  opacity: 0.05;
+}
+
+.gallery-block-one .inner-box .content-box{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  padding: 20px 40px;
+}
+
+.gallery-block-one .inner-box .content-box:before{
+  position: absolute;
+  content: '';
+  border: 5px solid #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box:hover .content-box:before{
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  left: 20px;
+  top: 20px;
+  opacity: 1;
+}
+
+.gallery-block-one .inner-box .content-box span{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  background: #142458;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  top: -15px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box:hover .content-box span{
+  top: 0px;
+  opacity: 1;
+}
+
+.gallery-block-one .inner-box .content-box h3{
+  position: relative;
+  display: block;
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 700;
+  top: 15px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box:hover .content-box h3{
+  top: 0px;
+  opacity: 1;
+}
+
+.gallery-block-one .inner-box .content-box h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.gallery-block-one .inner-box .content-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.gallery-block-one .inner-box .content-box .inner{
+  position: relative;
+}
+
+
+/** gallery-style-two **/
+
+.gallery-style-two{
+  position: relative;
+}
+
+.gallery-style-two .gallery-block-one .inner-box{
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+@media only screen and (max-width: 767px){
+  .gallery-section{
+    padding-top: 65px;
+  }
+
+  .gallery-style-two{
+    padding: 65px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

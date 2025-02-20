@@ -1,0 +1,185 @@
+
+/** discover-section **/
+
+.discover-section{
+  position: relative;
+  background: linear-gradient(rgba(80, 174, 177, 0.12), rgba(80, 174, 177, 0.05));
+}
+
+.discover-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 45px 35px;
+  transition: all 500ms ease;
+}
+
+.discover-block-one .inner-box:hover{
+  transform: translateY(-10px);
+}
+
+.discover-block-one .inner-box h5{
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+  padding-left: 55px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 30px;
+}
+
+.discover-block-one .inner-box h5 i{
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  top: 5px;
+  background: #142458;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+}
+
+.discover-block-one .inner-box p{
+  display: block;
+  margin-bottom: 22px;
+}
+
+.discover-block-one .inner-box .list-style-one li:before{
+
+}
+
+.discover-block-one .inner-box a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--title-color);
+  padding: 14px 39px;
+  border-radius: 5px;
+}
+
+.discover-block-one .inner-box a:hover{
+  color: #fff;
+}
+
+.discover-section .bg-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: calc(50% - 75px);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discover-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  width: 556px;
+  height: 612px;
+  background-repeat: no-repeat;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .discover-section .bg-layer{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .discover-block-one .inner-box h5{
+  padding-left: 0px;
+  padding-right: 55px;
+}
+
+.rtl .discover-block-one .inner-box h5 i{
+  left: inherit;
+  right: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .discover-section .bg-layer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .discover-section{
+    padding: 65px 0px 40px 0px;
+  }
+
+  .discover-block-one .inner-box{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .discover-block-one .inner-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

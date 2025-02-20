@@ -1,0 +1,164 @@
+
+/** treatments-section **/
+
+.treatments-section{
+  position: relative;
+}
+
+.treatment-block-one .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.treatment-block-one .inner-box:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  border: 1px solid #D9D9D9;
+}
+
+.treatment-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  max-width: 240px;
+  width: 100%;
+}
+
+.treatment-block-one .inner-box .image-box img{
+  width: 100%;
+}
+
+.treatment-block-one .inner-box .content-box{
+  position: relative;
+  display: block;
+  border-left: none;
+  padding: 60px 50px 61px 50px;
+  min-height: 353px;
+}
+
+.treatment-block-one .inner-box .content-box h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.treatment-block-one .inner-box .content-box h4 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.treatment-block-one .inner-box .content-box h4 a:hover{
+
+}
+
+.treatment-block-one .inner-box .content-box p{
+  margin-bottom: 40px;
+}
+
+.treatment-block-one .inner-box .content-box .btn-box a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--title-color);
+  border-radius: 5px;
+  padding: 14px 40px;
+}
+
+.treatment-block-one .inner-box .content-box .btn-box a:hover{
+  color: #fff;
+}
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .treatments-section{
+    padding: 70px 0px 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .treatment-block-one .inner-box{
+    display: block;
+  }
+
+  .treatment-block-one .inner-box .image-box{
+    max-width: 100%;
+  }
+
+  .treatment-block-one .inner-box .content-box{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

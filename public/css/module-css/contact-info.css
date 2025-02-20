@@ -1,0 +1,131 @@
+
+/** contact-info-section **/
+
+.contact-info-section{
+  position: relative;
+}
+
+.info-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.info-block-one .inner-box .icon-box{
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 38px;
+  color: var(--title-color);
+  background: rgba(80, 174, 177, 0.12);
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  transition: all 500ms ease;
+}
+
+.info-block-one .inner-box:hover .icon-box{
+  color: #fff;
+  background: rgba(80, 174, 177, 1);
+}
+
+.info-block-one .inner-box span{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.info-block-one .inner-box a,
+.info-block-one .inner-box .location{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.info-block-one .inner-box a:hover{
+
+}
+
+.info-block-one .inner-box p{
+  position: relative;
+  display: block;
+}
+
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .contact-info-section{
+    padding: 70px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
