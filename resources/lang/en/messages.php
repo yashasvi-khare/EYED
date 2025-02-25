@@ -102,6 +102,19 @@ return [
 'treatments_sec_exp05'=>"Explore More",
 'treatments_sec_exp06'=>"Explore More",
 'treatments_sec_exp07'=>"Explore More",
+'treatments_sec_exp08'=>"Explore More",
+'treatments_sec_exp10'=>"Explore More",
+
+
 'reatments_sec_title10'=> "Paediatric Ophthalmology",
 'treatments_sec_title11' =>"Paediatric ophthalmology focuses on diagnosing and treating eye conditions in children, ensuring healthy vision development. From routine eye exams to treating conditions like lazy eye, squint, and congenital cataracts.",
+'treatments_sec_title12' =>"Cataract",
+'treatments_sec_title13' =>"A condition where the eye's natural lens becomes cloudy, leading to blurred or dim vision. Commonly age-related, cataracts can also result from injury or other factors. Symptoms include faded colors, glare, and poor night vision.",
+'treatments_sec_title12' =>"Glaucoma",
+'treatments_sec_title14' =>"A group of eye conditions characterized by damage to the optic nerve, often due to increased intraocular pressure. It can lead to peripheral vision loss and, if untreated, blindness. Early stages are usually asymptomatic, so regular eye exams are crucial.",
+'treatments_sec_title15' =>"conjucvities",
+'treatments_sec_title16' =>"Inflammation of the conjunctiva ,the clear tissue covering the white part of the eye and inner eyelids. Also known as pink eye it can be caused by infections, allergens, or irritants. Symptoms include redness, itching, and discharge",
+'treatments_sec_title17' =>"Dacryocystitis",
+'treatments_sec_title18' =>"An infection of the lacrimal (tear) sac, typically due to a blocked nasolacrimal duct. Symptoms include pain, redness, and swelling near the inner corner of the eye, along with tearing.",
+
 ];

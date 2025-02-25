@@ -140,11 +140,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-2.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">
-                            Cataract</a></h4>
-                            <p>A condition where the eye's natural lens becomes cloudy, leading to blurred or dim vision. Commonly age-related, cataracts can also result from injury or other factors. Symptoms include faded colors, glare, and poor night vision.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title12')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title13')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp01')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -155,10 +154,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-2.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Glaucoma</a></h4>
-                            <p>A group of eye conditions characterized by damage to the optic nerve, often due to increased intraocular pressure. It can lead to peripheral vision loss and, if untreated, blindness. Early stages are usually asymptomatic, so regular eye exams are crucial.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title12')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title14')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp01')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -169,10 +168,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-2.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Conjunctivitis</a></h4>
-                            <p>Inflammation of the conjunctiva, the clear tissue covering the white part of the eye and inner eyelids. Also known as "pink eye," it can be caused by infections, allergens, or irritants. Symptoms include redness, itching, and discharge.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title15')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title16')}}".</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp01')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -183,10 +182,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-2.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Dacryocystitis</a></h4>
-                            <p>An infection of the lacrimal (tear) sac, typically due to a blocked nasolacrimal duct. Symptoms include pain, redness, and swelling near the inner corner of the eye, along with tearing.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title17')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title18')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp01')}}"</a>
                             </div>
                         </div>
                     </div>
