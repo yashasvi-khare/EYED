@@ -36,10 +36,10 @@
     background-position: center;"></div>
     <div class="auto-container" style="position: absolute;top: 184px;    left: 40%;    right: auto;    margin: auto;">
         <div class="content-box">
-            <h1>Treatments</h1>
+            <h1>"{{ __('messages.treatments_sec_2')}}"</h1>
             <ul class="bread-crumb">
-                <li><a href="index.html">Home</a></li>
-                <li>Treatments</li>
+                <li><a href="index.html">"{{ __('messages.treatments_sec_1')}}"</a></li>
+                <li>"{{ __('messages.treatments_sec_2')}}"</li>
             </ul>
         </div>
     </div>

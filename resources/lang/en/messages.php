@@ -116,5 +116,6 @@ return [
 'treatments_sec_title16' =>"Inflammation of the conjunctiva ,the clear tissue covering the white part of the eye and inner eyelids. Also known as pink eye it can be caused by infections, allergens, or irritants. Symptoms include redness, itching, and discharge",
 'treatments_sec_title17' =>"Dacryocystitis",
 'treatments_sec_title18' =>"An infection of the lacrimal (tear) sac, typically due to a blocked nasolacrimal duct. Symptoms include pain, redness, and swelling near the inner corner of the eye, along with tearing.",
-
+'treatments_sec_1'=>"Home",
+'treatments_sec_2' =>"Treatments",
 ];
