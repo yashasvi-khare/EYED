@@ -1,5 +1,7 @@
 <?php
 
+use function Ramsey\Uuid\v1;
+
 return [
   //INDEX PAGE TRANSLATE
     'tile' => "Experience Superior Eye-Care with Aligarh Eye Hospital",
@@ -82,4 +84,24 @@ return [
 'about_card_linkbox4'=>"Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.",
 'about_card_linkbox5'=>"Best Transplant Services",
 'about_card_linkbox6'=>"Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.",
+'treatments_sec_title' => "Retina Surgery Treatment",
+'treatments_sec_title01' =>"Retina surgery is crucial for treating retinal detachment, diabetic retinopathy, and macular degeneration. Using advanced techniques like vitrectomy and laser therapy, our specialists restore vision and prevent further complications.",
+'treatments_sec_exp01'=>"Explore More",
+'treatments_sec_title02' =>"Ptosis Repairing",
+'treatments_sec_title03' =>"Ptosis repair is a surgical procedure to correct drooping eyelids, improving both vision and appearance. This treatment strengthens or repositions the eyelid muscles, restoring a natural, youthful look while enhancing eyesight.",
+'treatments_sec_exp02'=>"Explore More",
+'treatments_sec_title04' =>"Cornea Transplant",
+'treatments_sec_title05' =>"A cornea transplant restores vision by replacing a damaged or diseased cornea with a healthy donor cornea. This procedure treats conditions like corneal scarring, keratoconus, and infections.",
+'treatments_sec_title06' =>"Refractive Nature Disorder",
+'treatments_sec_title07' =>"Refractive errors occur when the eye fails to focus light correctly, causing blurred vision. Conditions like myopia (nearsightedness), hyperopia (farsightedness), astigmatism.",
+'treatments_sec_title08' =>"Vision Rehabilitation",
+'treatments_sec_title09' =>"Vision rehabilitation helps individuals with low vision regain independence and improve their quality of life. It includes personalized therapy, assistive devices, and specialized training to enhance daily functioning.",
+'reatments_sec_title10'=> "Paediatric Ophthalmology",
+'treatments_sec_exp03'=>"Explore More",
+'treatments_sec_exp04'=>"Explore More",
+'treatments_sec_exp05'=>"Explore More",
+'treatments_sec_exp06'=>"Explore More",
+'treatments_sec_exp07'=>"Explore More",
+'reatments_sec_title10'=> "Paediatric Ophthalmology",
+'treatments_sec_title11' =>"Paediatric ophthalmology focuses on diagnosing and treating eye conditions in children, ensuring healthy vision development. From routine eye exams to treating conditions like lazy eye, squint, and congenital cataracts.",
 ];

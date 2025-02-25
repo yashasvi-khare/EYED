@@ -445,7 +445,7 @@
                                 <li><i class="icon-18"></i></li>
                             </ul>
                             <h4>“{{ __('messages.about_card_linkbox5')}}"</h4>
-                            <p>{{ __('messages.about_card_linkbox6')}}"</p>
+                            <p>"{{ __('messages.about_card_linkbox6')}}"</p>
                             <div class="author-box">
                                 <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
                                 <h5>John Brokelyn</h5>

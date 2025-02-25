@@ -56,10 +56,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-1.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Retina Surgery Treatment</a></h4>
-                            <p>Retina surgery is crucial for treating retinal detachment, diabetic retinopathy, and macular degeneration. Using advanced techniques like vitrectomy and laser therapy, our specialists restore vision and prevent further complications.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title01')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp01')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-2.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Ptosis Repairing</a></h4>
-                            <p>Ptosis repair is a surgical procedure to correct drooping eyelids, improving both vision and appearance. This treatment strengthens or repositions the eyelid muscles, restoring a natural, youthful look while enhancing eyesight.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title02')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title03')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp02')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -84,10 +84,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-3.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Cornea Transplant</a></h4>
-                            <p>A cornea transplant restores vision by replacing a damaged or diseased cornea with a healthy donor cornea. This procedure treats conditions like corneal scarring, keratoconus, and infections.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title04')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title05')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp03')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -98,10 +98,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-4.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Refractive Nature Disorder</a></h4>
-                            <p>Refractive errors occur when the eye fails to focus light correctly, causing blurred vision. Conditions like myopia (nearsightedness), hyperopia (farsightedness), astigmatism.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title06')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title07')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp04')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -112,10 +112,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-5.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Vision Rehabilitation</a></h4>
-                            <p>Vision rehabilitation helps individuals with low vision regain independence and improve their quality of life. It includes personalized therapy, assistive devices, and specialized training to enhance daily functioning.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title08')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title09')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp05')}}"</a>
                             </div>
                         </div>
                     </div>
@@ -126,10 +126,10 @@
                     <div class="inner-box">
                         <figure class="image-box"><img src="assets/images/resource/treatment-6.jpg" alt=""></figure>
                         <div class="content-box">
-                            <h4><a href="treatments.html">Paediatric Ophthalmology</a></h4>
-                            <p>Paediatric ophthalmology focuses on diagnosing and treating eye conditions in children, ensuring healthy vision development. From routine eye exams to treating conditions like lazy eye, squint, and congenital cataracts.</p>
+                            <h4><a href="treatments.html">"{{ __('messages.treatments_sec_title10')}}"</a></h4>
+                            <p>"{{ __('messages.treatments_sec_title11')}}"</p>
                             <div class="btn-box">
-                                <a href="treatments.html">Explore More</a>
+                                <a href="treatments.html">"{{ __('messages.treatments_sec_exp06')}}"</a>
                             </div>
                         </div>
                     </div>
