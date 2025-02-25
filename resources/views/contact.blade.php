@@ -36,10 +36,10 @@
     <div class="pattern-layer" style="background-image: url(assets/images/shape/3.jpg);  background-color:rgb(148, 6, 6);"></div>
     <div class="auto-container">
         <div class="content-box">
-            <h1>Contact Us</h1>
+            <h1>"{{ __('messages.contact_box_1')}}"</h1>
             <ul class="bread-crumb">
-                <li><a href="index.html">Home</a></li>
-                <li>Contact Us</li>
+                <li><a href="index.html">"{{ __('messages.contact_sec')}}"</a></li>
+                <li>"{{ __('messages.contact_box_1')}}"</li>
             </ul>
         </div>
     </div>

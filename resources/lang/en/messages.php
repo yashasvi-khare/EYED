@@ -118,4 +118,6 @@ return [
 'treatments_sec_title18' =>"An infection of the lacrimal (tear) sac, typically due to a blocked nasolacrimal duct. Symptoms include pain, redness, and swelling near the inner corner of the eye, along with tearing.",
 'treatments_sec_1'=>"Home",
 'treatments_sec_2' =>"Treatments",
+'contact_box_1' => "contact us",
+'contact_sec' => "home",
 ];
