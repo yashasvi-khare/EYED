@@ -1,6 +1,7 @@
 <?php
 
 return [
+  //INDEX PAGE TRANSLATE
     'tile' => "Experience Superior Eye-Care with Aligarh Eye Hospital",
     'tile_2' => "At Aligarh Eye Hospital, we believe that exceptional eye care goes beyond just treating vision problems—it’s about improving lives and helping you see the world in its full clarity. With years of expertise and a commitment to using the latest technologies, we deliver unparalleled services to ensure your vision remains in the best possible health.",
     'tile_3' => "Eye Care Hospital offering free Treatment since 2005",
@@ -56,4 +57,29 @@ return [
 'sec_title_mb_3' =>"Surgical Treatment ",
 'sec_title_mb_4' =>"Leser Therapy ",
 'sec_title_mb_5' =>"Vision Treatment",
+
+
+
+//ABOUT PAGE SECTION
+ 'about_sec_title'=>"Getting the Best Results - Optical Vision Treatments",
+ 'about_sec_2' =>"At Aligarh Eye Hospital, we strive to provide  high-quality eye care using advanced tecnology and personalized treatment plans. Our dedicated team of experienced doctors and caring  staff ensures you receive the most effective solutions for your vision needs. With patient comfort  as your top priority, we aim to give  you clear,  healthy eyesight so you can  enjoy life  to the fullest",
+'about_sec_3' =>"Modern Equipment",
+'about_sec_4' =>"We use the latest diaagnostic tools and surgical techniques to ensure accurate,effective treatments for every patient",
+'about_sec_5' =>"Emergency Help",
+'about_sec_6' =>"Our emergency services are ready to handle urgent eye issues, offering prompt and compassinate care when you need it most",
+'about_sec_7' =>"Book an Appointment",
+'about_card_title' =>"Our Mission",
+'about_card_1' =>"We believe everyone deserves clear and healthy vision. Our mission is to protect and improve your sight using advanced technology and expert care. We focus on personalized treatment for every patient",
+'about_card_2' =>"Our Journey",
+'about_card_3' =>"Starting as a small clinic in [Year], we have grown into a full-service eye hospital. Our continuous learning and commitment to excellence have made us a trusted name in eye care across Aligarh",
+'about_card_4' =>"Our Values",
+'about_card_5' =>"We treat every patient with kindness and understanding.We use the latest technology to provide the best care possible.We are honest, respectful, and dedicated to your well-being",
+'about_card_6' =>"Why Choose Aligarh Eye Hospital ?",
+'about_card_linkbox' =>"Book Appointment Now",
+'about_card_linkbox1'=>"Best Eye Care Services",
+'about_card_linkbox2'=>"Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.",
+'about_card_linkbox3'=>"Best Eye Care Experience",
+'about_card_linkbox4'=>"Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.",
+'about_card_linkbox5'=>"Best Transplant Services",
+'about_card_linkbox6'=>"Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.",
 ];

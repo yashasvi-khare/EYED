@@ -68,31 +68,31 @@
                         <div class="content_block_two">
                             <div class="content-box">
                                 <div class="sec-title mb_20">
-                                    <h2>Getting the Best Results - Optical Vision Treatments</h2>
+                                    <h2>{{ __('messages.about_sec_title')}}.</h2>
                                 </div>
                                 <div class="text-box mb_45">
-                                    <p>At Aligarh Eye Hospital, we strive to provide  high-quality eye care using advanced tecnology and personalized treatment plans. Our dedicated team of experienced doctors and caring  staff ensures you receive the most effective solutions for your vision needs. With patient comfort  as your top priority, we aim to give  you clear,  healthy eyesight so you can  enjoy life  to the fullest..</p>
+                                    <p>{{ __('messages.about_sec_2')}}.</p>
                                 </div>
                                 <div class="inner-box">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
                                             <div class="single-item">
                                                 <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
-                                                <h4>Modern Equipment</h4>
-                                                <p>We use the latest diaagnostic tools and surgical techniques to ensure accurate,effective treatments for every patient..</p>
+                                                <h4>{{ __('messages.about_sec_3')}}</h4>
+                                                <p>{{ __('messages.about_sec_4')}}</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
                                             <div class="single-item">
                                                 <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
-                                                <h4>Emergency Help</h4>
-                                                <p>Our emergency services are ready to handle urgent eye issues, offering prompt and compassinate care when you need it most..</p>
+                                                <h4>{{ __('messages.about_sec_5')}}</h4>
+                                                <p>{{ __('messages.about_sec_6')}}..</p>
                                             </div> 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="btn-box">
-                                    <a href="index.html" class="theme-btn btn-one">Book an Appointment</a>
+                                    <a href="index.html" class="theme-btn btn-one">{{ __('messages.about_sec_7')}}</a>
                                 </div>
                             </div>
                         </div>
@@ -156,14 +156,14 @@
         </section>
         <section class="apply py-5" id="apply">
         <div class="container">
-            <h2 class="text-center mb-4">Why Choose Aligarh Eye Hospital ?</h2>
+            <h2 class="text-center mb-4">{{ __('messages.about_card_6')}}</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
                         <img src="{{ asset('images\news\b.avif') }}" class="card-img-top" alt="Registration">
                         <div class="card-body">
-                            <h5 class="card-title">Our Mission</h5>
-                            <p class="card-text">We believe everyone deserves clear and healthy vision. Our mission is to protect and improve your sight using advanced technology and expert care. We focus on personalized treatment for every patient.</p>
+                            <h5 class="card-title">{{ __('messages.about_card_title')}}</h5>
+                            <p class="card-text">{{ __('messages.about_card_1')}}.</p>
                         </div>
                     </div>
                 </div>
@@ -171,8 +171,8 @@
                     <div class="card">
                         <img src="{{ asset('images\news\a.jpg') }}" class="card-img-top" alt="Documents">
                         <div class="card-body">
-                            <h5 class="card-title">Our Journey</h5>
-                            <p class="card-text">Starting as a small clinic in [Year], we have grown into a full-service eye hospital. Our continuous learning and commitment to excellence have made us a trusted name in eye care across Aligarh.
+                            <h5 class="card-title">{{ __('messages.about_card_2')}}</h5>
+                            <p class="card-text">{{ __('messages.about_card_3')}}
                             </p>
                         </div>
                     </div>
@@ -181,9 +181,9 @@
                     <div class="card">
                         <img src="{{ asset('images\news\c.jpg') }}" class="card-img-top" alt="Hospital">
                         <div class="card-body">
-                            <h5 class="card-title">Our Values</h5>
-                            <p class="card-text">We treat every patient with kindness and understanding.We use the latest technology to provide the best care possible.We are honest, respectful, and dedicated to your well-being.
-                            </p>
+                            <h5 class="card-title">{{ __('messages.about_card_4')}}</h5>
+                            <p class="card-text">{{ __('messages.about_card_5')}}</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                                         </ul>
                                     </div>
                                     <div class="link-box">
-                                        <a href="index.html">Book Appointment Now</a>
+                                        <a href="index.html">{{ __('messages.about_card_linkbox')}}</a>
                                     </div>
                                 </div>
                             </div>
@@ -405,8 +405,8 @@
                                 <li><i class="icon-18"></i></li>
                                 <li><i class="icon-18"></i></li>
                             </ul>
-                            <h4>“Best Eye Care Services”</h4>
-                            <p>Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.</p>
+                            <h4>“{{ __('messages.about_card_linkbox1')}}”</h4>
+                            <p>"{{ __('messages.about_card_linkbox2')}}"</p>
                             <div class="author-box">
 
                                 <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
@@ -425,8 +425,8 @@
                                 <li><i class="icon-18"></i></li>
                                 <li><i class="icon-18"></i></li>
                             </ul>
-                            <h4>“Best Eye Care Experience”</h4>
-                            <p>Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.</p>
+                            <h4>"{{ __('messages.about_card_linkbox3')}}"</h4>
+                            <p>"{{ __('messages.about_card_linkbox4')}}"</p>
                             <div class="author-box">
                                 <figure class="thumb-box"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
                                 <h5>Sandy Thosmson</h5>
@@ -444,8 +444,8 @@
                                 <li><i class="icon-18"></i></li>
                                 <li><i class="icon-18"></i></li>
                             </ul>
-                            <h4>“Best Transplant Services”</h4>
-                            <p>Enim amet id maecenas congue sedis sedet tincidunt sit donec. Ac cum atde elit purus varius isti facilia.</p>
+                            <h4>“{{ __('messages.about_card_linkbox5')}}"</h4>
+                            <p>{{ __('messages.about_card_linkbox6')}}"</p>
                             <div class="author-box">
                                 <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
                                 <h5>John Brokelyn</h5>
